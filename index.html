@@ -1,1 +1,240 @@
+<header>
+  <h1>Yatra Shucna</h1>
+  <div>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
 
+<section class="hero" id="hero">
+  <h2>Welcome to My Website</h2>
+  <p>
+    Lorem ipsum dolor dit amet consectetur adipisicing elit. 
+    Ipsam, ratione consectetur nostrum voluptates optio dolore aliquid nam,
+    nemo fugit horum soluta iure neseiunt placeat corporis?
+    Ea veniam humquam ducimus. Iusto?
+  </p>
+  <a href="#contact" class="cta">Get in Touch</a>
+</section>
+
+<section class="about" id="about">
+  <h2>About Us</h2>
+  <p>
+    Lorem ipsum dolor dit amet consectetur adipisicing elit. 
+    Ipsam, ratione consectetur nostrum voluptates optio dolore aliquid nam,
+    nemo fugit horum soluta iure neseiunt placeat corporis?
+    Ea veniam humquam ducimus. Iusto?
+  </p>
+  <h4 style="text-align: start; color: darkviolet">Hamari Sevayein:</h4>
+  <p>
+    Lorem ipsum dolor dit amet consectetur adipisicing elit. 
+    Ipsam, ratione consectetur nostrum voluptates optio dolore aliquid nam,
+    nemo fugit horum soluta iure neseiunt placeat corporis?
+    Ea veniam humquam ducimus. Iusto?
+  </p>
+</section>
+
+<section class="services" id="services">
+  <h2>Our Services</h2>
+  <div class="service">
+    <h3>Service 1</h3>
+    <p>
+      Lorem ipsum dolor dit amet consectetur adipisicing elit. 
+    Ipsam, ratione consectetur nostrum voluptates optio dolore aliquid nam,
+    nemo fugit horum soluta iure neseiunt placeat corporis?
+    Ea veniam humquam ducimus. Iusto?.
+    </p>
+  </div>
+  <div class="service">
+    <h3>Service 2</h3>
+    <p>
+      2. Lorem ipsum dolor dit amet consectetur adipisicing elit. 
+    Ipsam, ratione consectetur nostrum voluptates optio dolore aliquid nam,
+    nemo fugit horum soluta iure neseiunt placeat corporis?
+    Ea veniam humquam ducimus. Iusto?
+    </p>
+  </div>
+  <div class="service">
+    <h3>Service 3</h3>
+    <p>
+      3. Lorem ipsum dolor dit amet consectetur adipisicing elit. 
+    Ipsam, ratione consectetur nostrum voluptates optio dolore aliquid nam,
+    nemo fugit horum soluta iure neseiunt placeat corporis?
+    Ea veniam humquam ducimus. Iusto?
+    </p>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-info">
+    <p>Email: kundanbagwan73@gmail.com</p>
+    <p>Phone: +91 7566382549</p>
+  </div>
+  <form>
+    <input type="text" placeholder="Name" required />
+    <input type="email" placeholder="Email" required />
+    <textarea placeholder="Message" rows="4" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2024 Yatra Shucna. All rights reserved.</p>
+</footer>
+<style>
+  * {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #f7f7f7; 
+  color: #333;
+}
+
+header ,footer{
+  background-color: #333; 
+  color: #fff; 
+  padding: 20px; 
+  text-align: center; 
+  
+}
+header h1 {
+  font-size: 36px; 
+  margin-bottom: 10px; 
+}
+header div a {
+  color: #fff; 
+  text-decoration: none; 
+  margin: 0 10px; 
+}
+
+.hero {
+  background-image: linear-gradient(to bottom, #3498db, #2c3e50); 
+  color: #fff; 
+  text-align: center; 
+  padding: 100px 0;
+  position: relative; 
+}
+.hero h2 {
+  font-size: 48px; 
+  margin-bottom: 20px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+.hero p {
+  font-size: 18px;  
+  margin-bottom: 20px; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);  
+}
+.hero .cta {
+  display: inline-block; 
+  background-color: #fff; 
+  color: #333; 
+  text-decoration: none;
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  font-weight: bold;  
+  font-size: 18px; 
+  transition: background-color 0.3s ease; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.hero .cta:hover {
+  background-color: #ddd; 
+}
+.about {
+  background-image: linear-gradient(to bottom, #27ae60, #2ecc71); 
+  padding: 100px 0; 
+  text-align: center; 
+  color: #fff;
+}
+.about h2 {
+  font-size: 36px; 
+  margin-bottom: 20px; 
+}
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.services{
+  background-image: linear-gradient(to bottom, #f39c12, #f1c40f);
+  padding: 100px 0;
+  text-align: center; 
+  color: #fff; 
+}
+.services h2 {
+  font-size: 36px; 
+  margin-bottom: 20px; 
+}
+.services .service {
+  display: inline-block; 
+  width: 30%; 
+  margin: 0 2%; 
+  padding: 30px; 
+  background-color: #fff; 
+  border-radius: 5px; 
+  margin-bottom: 20px; 
+  vertical-align: top; 
+  transition: background-color 0.3s ease; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.services .service:hover {
+  background-color: #f0f0f0; 
+}
+.services .service h3 {
+  font-size: 24px;
+  margin-bottom: 10px; 
+}
+.services .service p {
+  font-size: 10px; 
+}
+
+
+
+.contact {
+  background-image: linear-gradient(to bottom, #9b59b6, #8e44ad); 
+  color: #fff; 
+  padding: 100px 0; 
+  text-align: center;
+  
+}
+.contact h2 {
+  font-size: 36px; 
+  margin-bottom: 20px; 
+}
+.contact p {
+  font-size: 18px; 
+  margin-bottom: 20px; 
+}
+.contact form {
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+.contact input,
+.contact textarea {
+  width: 100%; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  border-radius: 5px; 
+  border: 1px solid #ddd; 
+  font-size: 16px; 
+}
+.contact button {
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  color: #fff;
+  border: none; 
+  padding: 10px 20px; ;  
+  border-radius: 5px; 
+  font-size: 18px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.contact button:hover {
+  background-image: linear-gradient(to bottom,rgb(41, 128, 185, ); 
+}
+</style>
